@@ -5,6 +5,20 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
-  title = 'bases';
+  title = 'Hola mundo';
+  // public counter : number = 10;
+
+  // increaseBy(value: number):void{
+  //   this.counter += value;
+  // }
+
+  // reset(): void{
+  //   this.counter = 10;
+  // }
+
+  // decreaseBy(): void{
+  //   this.counter -= 1;
+  // }
 }
